@@ -408,7 +408,7 @@ table > tbody > tr > td {
   min-height: 100px;
   transition: 0.6s all linear;
   display: flex;
-  right: -90px;
+  right: 0px;
   background-color: #8395a7;
   border-radius: 5px;
   top: -15px;
@@ -495,15 +495,15 @@ table > tbody > tr > td {
 }
 .search::placeholder {
   font-family: sans-serif;
-  color: gray;  
+  color: gray;
 }
-.search-active{
+.search-active {
   display: block;
   margin-right: 20px;
 }
-.search-active-none{
+.search-active-none {
   display: none;
 }
-.search-btn-none{
+.search-btn-none {
   display: none;
 }
